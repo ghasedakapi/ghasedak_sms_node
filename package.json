@@ -1,0 +1,17 @@
+{
+    "name": "ghasedak_sms_node",
+    "version": "1.0.0",
+    "description": "Node.js package for interacting with Ghasedak SMS API",
+    "main": "src/ghasedak.js",
+    "scripts": {
+        "test": "node test/test.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.4"
+    },
+    "devDependencies": {
+        "jest": "^26.6.3"
+    },
+    "author": "Ghasedak Development Team",
+    "license": "MIT"
+}
