@@ -1,9 +1,9 @@
 const Ghasedak = require('../src/ghasedak');
 
 // Mock the API key for testing purposes
-const apiKey = 'b7ee4eace78744868fc38b1b7fa90caed21717d4d7bf2c9f483d8abce6c018e1'; // Replace with your actual API key
-const receptor = '09120581875';
-const line = '210002100';
+const apiKey = 'b7ee4xxxxxxxxxxxxxxxxxxxxxx'; // Replace with your actual API key
+const receptor = '09xxxxxxxxx';
+const line = '123xxxxxx';
 // Create an instance of the Ghasedak class
 let ghasedak = new Ghasedak(apiKey);
 
@@ -55,7 +55,7 @@ async function main() {
   console.log('\nSend Bulk SMS');
   const bulkSmsCommand = {
     message: 'Bulk message',
-    receptors: [receptor, '09233264820'],
+    receptors: [receptor, '09xxxxxxxxx'],
     linenumber: line
   }; // Replace with valid command parameters
   console.log('Input:', bulkSmsCommand);
@@ -85,7 +85,7 @@ async function main() {
   }
   
 
-  console.log('\nSend OTP SMS New');
+  console.log('\nSend OTP SMS Old');
   const otpSmsNewCommand = {
     // sendDate: '2024-07-09T19:49:44.539Z',  // Replace with actual send date
     receptors: [
